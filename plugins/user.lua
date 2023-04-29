@@ -10,4 +10,8 @@ return {
   --   end,
   -- },
     "rebelot/kanagawa.nvim",
+    {
+        "ThePrimeagen/vim-be-good",
+        lazy=false,    
+    }
 }

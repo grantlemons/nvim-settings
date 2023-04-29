@@ -8,6 +8,12 @@ return {
   n = {
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
+    ["<Enter>"]    = { "o<Esc>" },
+    ["<S-Enter>"]  = { "O<Esc>" },
+    ["<C-u>"] = { "<C-u>zz" },
+    ["<C-d>"] = { "<C-d>zz" },
+    ["n"] = { "nzzzv" },
+    ["N"] = { "Nzzzv" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
