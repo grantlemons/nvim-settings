@@ -2,11 +2,16 @@
 return {
   opt = {
     -- set to true or false etc.
+    guifont = "Hack:h14",
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    -- indentation
+    tabstop = 4, -- Number of space in a tab
+    showtabline = 4, -- always display tabline
+    shiftwidth = 4, -- Number of space inserted for indentation
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
