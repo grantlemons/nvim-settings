@@ -13,5 +13,8 @@ return {
     {
         "ThePrimeagen/vim-be-good",
         lazy=false,    
-    }
+    },
+    "APZelos/blamer.nvim",
+    "neovim/nvim-lspconfig",
+    "simrat39/rust-tools.nvim",
 }
