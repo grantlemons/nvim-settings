@@ -2,7 +2,7 @@
 return {
   opt = {
     -- set to true or false etc.
-    guifont = "Hack:h14",
+    guifont = "Hack Nerd Font:h13.5",
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
